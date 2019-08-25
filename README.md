@@ -236,8 +236,8 @@ class Login extends Component {
   render() {
     return (
       <div>
-        <input
-          onChange={e => this.handleUsernameChange(e.target.value)}
+        <input 
+          onChange={e => this.handleUserNameChange(e.target.value)} // fixed Capital N in 'handleUsernameChange'
           type="text"
         />
         <input
